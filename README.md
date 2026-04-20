@@ -32,5 +32,5 @@ To replicate the experiments and run the Gemma 3 (27B) model efficiently, the fo
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/](https://github.com/)[KullanıcıAdın]/dynamic-rag-oilspill.git
+git clone [https://github.com/](https://github.com/)KMDR82/dynamic-rag-oilspill.git
 cd dynamic-rag-oilspill
