@@ -13,7 +13,7 @@ Code and dataset for our paper: 'Scientific Discovery via Dynamic RAG Architectu
 
 Traditional literature reviews are often hindered by the static nature of data and information explosion. This project introduces a **Retrieval-Augmented Generation (RAG) framework** designed specifically for scientific mining in the maritime domain, focusing on marine oil spill detection, monitoring, and transportation safety.
 
-To completely eliminate data leakage risks and ensure maximum privacy, the entire pipeline operates on a **100% local environment (on-premise)**. We utilize **Gemma 3 (27B)** via the Ollama engine, combined with FAISS vector databases and Hugging Face embeddings, to perform dynamic trend synthesis, identify research gaps, and conduct zero-hallucination academic analysis on a curated dataset of 126 full-text PDF documents.
+To completely eliminate data leakage risks and ensure maximum privacy, the entire pipeline operates on a **100% local environment (on-premise)**. We utilize **Gemma 3 (27B)** via the Ollama engine, combined with FAISS vector databases and Hugging Face embeddings, to perform dynamic trend synthesis, identify research gaps, and conduct zero-hallucination academic analysis on a curated dataset of 154 full-text PDF documents.
 
 ### Key Features
 * **Fully Local Execution:** No third-party API calls; complete data privacy.
