@@ -52,8 +52,6 @@ embeddings = HuggingFaceEmbeddings(model_name=EXPERIMENT_CONFIG["embedding_model
 vectorstore = FAISS.from_documents(splits, embeddings)
 
 # --- LLM TANIMLARI / LLM DEFINITIONS---
-# main4.py'de hatasız çalışan o sade LLM yapısını kullanıyoruz. 
-# Hiçbir ekstra Wrapper veya ChatOllama kalkanı YOK.
 llm = Ollama(
     model=EXPERIMENT_CONFIG["model_name"], 
     timeout=1200.0, 
