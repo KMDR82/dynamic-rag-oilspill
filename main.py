@@ -28,7 +28,7 @@ EXPERIMENT_CONFIG = {
     "temperature": 0.0,
     "top_p": 0.9,
     "top_k": 40,
-    "max_tokens_predict": 16384,   # <-- 126 PDF'te Faithfulness metriği yarım kalmasın diye 4096 yapıldı
+    "max_tokens_predict": 16384,
     "presence_penalty": 0.0,
     "frequency_penalty": 0.0,
     "chunk_size": 1500,
