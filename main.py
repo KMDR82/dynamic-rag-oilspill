@@ -39,7 +39,7 @@ EXPERIMENT_CONFIG = {
 print("🚀 Sistem Başlatılıyor / 🚀 System Starting Up") 
 
 # --- VERİ VE VEKTÖR SİSTEMİ / DATA AND VECTOR SYSTEM---
-loader = PyPDFDirectoryLoader("data/") # Gerçek testte burayı "data/" yapmayı unutma
+loader = PyPDFDirectoryLoader("data/")
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(
